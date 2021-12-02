@@ -16,13 +16,9 @@ int main(int argc, char **argv){
 		if (strcmp(cmd, "forward") == 0){
 			x += i;
 		}else if (strcmp(cmd, "down") == 0){
-			printf("%s", cmd);
 			y += i;
 		}else if (strcmp(cmd, "up") == 0){
-			printf("this happened");
 			y -= i;
-		}else{
-			printf("you fucked up");
 		}
 
 	       	fscanf(file, "%s %d", &cmd, &i);
